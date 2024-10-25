@@ -18,8 +18,21 @@ conda activate ShapFS
 pip install -r requirements.txt
 ```
 
-## Train and Test Deep Learning models
-The program can be executed with the default parameters. To run the training and testing scripts, ensure that the correct paths to the dataset, model weights, and save directory are specified (i.e., `weight_path`, `dataset_dir` and `save_dir`).
+## Train and Test
+
+The following deep models can be executed with their default parameters. To run the training and testing scripts, ensure that the correct paths to the dataset, model weights, and save directory are specified (i.e., `weight_path`, `dataset_dir` and `save_dir`).
+
+### ShapFS
+
+```bash
+cd src/ShapFS
+```
+
+- **`shapfs_combine.ipynb`**: Notebook for combining data and running the ShapFS pipeline.
+- **`shapfs_glucose.ipynb`**: Specific implementation of ShapFS on the glucose dataset.
+- **`shapfs_lacticacid.ipynb`**: ShapFS applied to the lactic acid dataset for detailed analysis.
+
+
 
 ### Domain Adversarial Neural Networks for Regression (DANN-R)
 ```python
