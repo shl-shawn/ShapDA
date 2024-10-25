@@ -124,7 +124,7 @@ python test.py
       <td>3.6</td>
     </tr>
     <tr style="background-color: #d1e7dd;">
-      <td><strong>ShapFS</strong></td>
+      <td><strong>ShapFS (our)</strong></td>
       <td><strong>0.98</strong></td>
       <td><strong>4.3</strong></td>
       <td><strong>3.7</strong></td>
@@ -208,7 +208,7 @@ python test.py
       <td>2.8</td>
     </tr>
     <tr style="background-color: #d1e7dd;">
-      <td><strong>ShapFS</strong></td>
+      <td><strong>ShapFS (our)</strong></td>
       <td><strong>0.99</strong></td>
       <td><strong>3.1</strong></td>
       <td><strong>3.7</strong></td>
