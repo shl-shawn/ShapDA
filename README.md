@@ -80,7 +80,7 @@ python test.py
   </thead>
   <tbody>
     <tr>
-      <td>No Adaptation</td>
+      <td style="white-space: nowrap;">No Adaptation</td>
       <td><strong>0.98</strong></td>
       <td>4.4</td>
       <td>3.8</td>
@@ -91,7 +91,7 @@ python test.py
       <td>1.5</td>
     </tr>
     <tr>
-      <td>DeepCORAL-R</td>
+      <td style="white-space: nowrap;">DeepCORAL-R</td>
       <td>0.80</td>
       <td>18.0</td>
       <td>15.9</td>
@@ -164,7 +164,7 @@ python test.py
   </thead>
   <tbody>
     <tr>
-      <td>No Adaptation</td>
+      <td style="white-space: nowrap;">No Adaptation</td>
       <td><strong>0.99</strong></td>
       <td>3.3</td>
       <td>3.9</td>
@@ -175,7 +175,7 @@ python test.py
       <td>2.2</td>
     </tr>
     <tr>
-      <td>DeepCORAL-R</td>
+      <td style="white-space: nowrap;">DeepCORAL-R</td>
       <td>0.95</td>
       <td>6.1</td>
       <td>6.9</td>
