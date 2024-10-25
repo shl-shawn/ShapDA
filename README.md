@@ -21,7 +21,7 @@ pip install -r requirements.txt
 ## Train and Test Deep Learning models
 The program can be executed with the default parameters. To run the training and testing scripts, ensure that the correct paths to the dataset, model weights, and save directory are specified (i.e., `weight_path`, `dataset_dir` and `save_dir`).
 
-### DANN-R
+### Domain Adversarial Neural Networks for Regression (DANN-R)
 ```python
 #Train
 cd src/DANN-R
@@ -32,7 +32,7 @@ cd src/DANN-R
 python test.py
 ```
 
-### DARE-GRAM
+### Domain Adaptation Regression with GRAM matrices (DARE-GRAM)
 ```python
 #Train
 cd src/DARE-GRAM
@@ -43,7 +43,7 @@ cd src/DARE-GRAM
 python test.py
 ```
 
-### DeepCORAL-R
+### Deep Correlation Alignment for Regression (DeepCORAL-R)
 ```python
 #Train
 cd src/DeepCORAL-R
@@ -53,6 +53,7 @@ python train.py
 cd src/DeepCORAL-R
 python test.py
 ```
+
 
 
 ## Experiment results
@@ -138,7 +139,7 @@ python test.py
 
 
 
-*Table 1: Unsupervised domain adaptation results for glucose in source fermentation using glucose as the substrate (SG) and target fermentation using complex sugar from waste as the substrate (CW). Here DeepCORAL-R is Deep Correlation Alignment for Regression, DANN-R is Domain Adversarial Neural Networks for Regression, and ShapFS is SHapley Additive exPlanations-based domain invariant feature selection method.*
+*Table 1: Unsupervised domain adaptation results for glucose in source fermentation using glucose as the substrate (SG) and target fermentation using complex sugar from waste as the substrate (CW).*
 
 
 ### Lactic acid prediction experiment results
