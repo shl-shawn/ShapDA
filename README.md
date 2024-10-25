@@ -8,7 +8,7 @@ Code for our paper: Domain-Invariant Monitoring for Lactic Acid Production: Tran
 
 
 ## Installation
-Please create and activate the following conda envrionment. To reproduce our results, please kindly create and use this environment.
+To reproduce our results, please kindly create and use the following environment.
 
 ```python
 git clone https://github.com/shl-shawn/ShapFS.git
