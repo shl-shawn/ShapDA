@@ -1,4 +1,4 @@
-# ShapFS
+# SHapley Additive exPlanations-based feature selection (ShapFS)
 Code for our paper: Domain-Invariant Monitoring for Lactic Acid Production: Transfer Learning from Glucose to Bio-Waste Using Machine Learning Interpretation
 
 
