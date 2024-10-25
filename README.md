@@ -242,9 +242,9 @@ The files should be extracted and placed in the `dataset` folder. For access to 
 
 
 ## Acknowledgement 
-+ DANN-R is developed from DANN [official](https://github.com/NaJaeMin92/pytorch-DANN)  
-+ DARE-GRAM is used as our codebase [official](https://github.com/ismailnejjar/DARE-GRAM)  
-+ DeepCORAL-R is developed from DeepCORAL [official](https://github.com/SSARCandy/DeepCORAL) 
++ DANN-R is developed from [DANN](https://github.com/NaJaeMin92/pytorch-DANN).  
++ DARE-GRAM is used as our [codebase](https://github.com/ismailnejjar/DARE-GRAM). 
++ DeepCORAL-R is developed from [DeepCORAL](https://github.com/SSARCandy/DeepCORAL).
 
 
 ## Contact
