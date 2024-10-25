@@ -22,17 +22,6 @@ pip install -r requirements.txt
 
 The following deep models can be executed with their default parameters. To run the training and testing scripts, ensure that the correct paths to the dataset, model weights, and save directory are specified (i.e., `weight_path`, `dataset_dir` and `save_dir`).
 
-### ShapFS
-
-```bash
-cd src/ShapFS
-```
-
-- **`shapfs_combine.ipynb`**: Notebook for combining data and running the ShapFS pipeline.
-- **`shapfs_glucose.ipynb`**: Specific implementation of ShapFS on the glucose dataset.
-- **`shapfs_lacticacid.ipynb`**: ShapFS applied to the lactic acid dataset for detailed analysis.
-
-
 
 ### Domain Adversarial Neural Networks for Regression (DANN-R)
 ```python
@@ -66,6 +55,15 @@ python train.py
 cd src/DeepCORAL-R
 python test.py
 ```
+
+### ShapFS
+
+```bash
+cd src/ShapFS
+```
+- **`shapfs_glucose.ipynb`**: Implements the ShapFS method for predicting glucose concentration in both source and target domains.
+- **`shapfs_lacticacid.ipynb`**: Applies ShapFS to predict lactic acid concentration across source and target domains.
+- **`shapfs_combine.ipynb`**: Combines domain-invariant features for glucose and lactic acid to evaluate their impact on prediction accuracy.
 
 
 
