@@ -3,6 +3,7 @@ pytorch
 torchvision
 matplotlib
 sklearn
+scipy
 pandas
 numpy
 tqdm
