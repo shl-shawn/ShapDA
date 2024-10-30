@@ -11,21 +11,24 @@ Code for our paper: Domain-Invariant Monitoring for Lactic Acid Production: Tran
 
 
 
-
 ## Table of Contents
 
-1. 🔍 [About](#-about)
-2. ⚙️ [Installation](#-installation)
-3. 🤖 [Training and Evaluation](#-training-and-evaluation)
-4. 📊 [Results](#-results)
+1. 🔍 [About](#about)
+2. ⚙️ [Installation](#installation)
+3. 🤖 [Training and Evaluation](#training-and-evaluation)
+4. 📊 [Results](#results)
 
 
+<a name="about"></a>
 ## 🔍 About
 <img src="./assets/Figure_1.jpg" alt="alt text" width="200%" height="150%">
 
 **Unsupervised Domain Adaptation in Lactic Acid Production**: The source domain uses simple glucose (SG) while the target domain uses complex bio-waste hydrolysate (CW). Subplot (a) shows FTIR data for the source ($X_s$) and target ($X_t$), highlighting the domain shift. Subplot (b) presents ShapFS, which identifies domain-invariant features. A regression model trained on these features enhances target predictions ($\hat{y}_t$), mitigating the effects of domain shift.
-   
+
+
+<a name="installation"></a>
 ## ⚙️ Installation
+
 To reproduce our results, please kindly create and use the following environment.
 
 ```python
@@ -36,6 +39,7 @@ conda activate ShapFS
 pip install -r requirements.txt
 ```
 
+<a name="training-and-evaluation"></a>
 ## 🤖 Training and Evaluation
 
 The following deep models can be executed with their default parameters. To run the training and testing scripts, ensure that the correct paths to the dataset, model weights, and save directory are specified (i.e., `weight_path`, `dataset_dir` and `save_dir`).
@@ -84,7 +88,7 @@ cd src/ShapFS
 - **`shapfs_combine.ipynb`**: Combines domain-invariant features for glucose and lactic acid to evaluate their impact on prediction accuracy.
 
 
-
+<a name="results"></a>
 ## 📊 Results
 
 ### Glucose prediction
