@@ -23,8 +23,7 @@ Code for our paper: Domain-Invariant Monitoring for Lactic Acid Production: Tran
 ## 🔍 About
 <img src="./assets/Figure_1.jpg" alt="alt text" width="200%" height="150%">
 
-**Domain adaptation in lactic acid production**: simple glucose (SG) in the source and bio-waste hydrolysate (CW) in the target. Subplot (a) shows FTIR data for source ($`X_s`$) and target ($`X_t`$), highlighting domain shift. Subplot (b) introduces ShapFS, identifying domain-invariant features. The regression model trained with these features improves target prediction ($`\hat{y}_t`$), reducing the domain shift impact.
-
+**Unsupervised Domain Adaptation in Lactic Acid Production**: The source domain uses simple glucose (SG) while the target domain uses complex bio-waste hydrolysate (CW). Subplot (a) shows FTIR data for the source ($X_s$) and target ($X_t$), highlighting the domain shift. Subplot (b) presents ShapFS, which identifies domain-invariant features. A regression model trained on these features enhances target predictions ($\hat{y}_t$), mitigating the effects of domain shift.
    
 ## ⚙️ Installation
 To reproduce our results, please kindly create and use the following environment.
