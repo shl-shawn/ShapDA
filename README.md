@@ -1,12 +1,29 @@
-# ShapFS: SHapley Additive exPlanations-based Feature Selection
+
+
+<div align="center">
+  <img width="30%" height="30%" src="./assest/icon3.png"><br>
+  
+  <strong>ShapFS: SHapley Additive exPlanations-based Feature Selection</strong>
+
+</div>
+
 Code for our paper: Domain-Invariant Monitoring for Lactic Acid Production: Transfer Learning from Glucose to Bio-Waste Using Machine Learning Interpretation
 
 
+
+## Table of Contents
+1. [About](#about)
+2. [Installation](#installation)
+3. [Training and Evaluation](#training-and-evaluation)
+4. [Results](#results)
+
+
+## About
 <img src="./assest/Figure_1.jpg" alt="alt text" width="200%" height="150%">
 
-*Figure 1: Domain adaptation in lactic acid production: simple glucose (SG) in the source and bio-waste hydrolysate (CW) in the target. Subplot (a) shows FTIR data for source ($`X_s`$) and target ($`X_t`$), highlighting domain shift. Subplot (b) introduces ShapFS, identifying domain-invariant features. The regression model trained with these features improves target prediction ($`\hat{y}_t`$), reducing the domain shift impact.*
+**Domain adaptation in lactic acid production**: simple glucose (SG) in the source and bio-waste hydrolysate (CW) in the target. Subplot (a) shows FTIR data for source ($`X_s`$) and target ($`X_t`$), highlighting domain shift. Subplot (b) introduces ShapFS, identifying domain-invariant features. The regression model trained with these features improves target prediction ($`\hat{y}_t`$), reducing the domain shift impact.
 
-
+   
 ## Installation
 To reproduce our results, please kindly create and use the following environment.
 
@@ -18,7 +35,7 @@ conda activate ShapFS
 pip install -r requirements.txt
 ```
 
-## Train and Test
+## Training and Evaluation
 
 The following deep models can be executed with their default parameters. To run the training and testing scripts, ensure that the correct paths to the dataset, model weights, and save directory are specified (i.e., `weight_path`, `dataset_dir` and `save_dir`).
 
@@ -67,7 +84,7 @@ cd src/ShapFS
 
 
 
-## Experiment results
+## Results
 
 ### Glucose prediction experiment results
 
@@ -236,16 +253,12 @@ cd src/ShapFS
 *Table 2: Lactic acid prediction results using unsupervised domain adaptation from source fermentation using glucose as the substrate (SG) to target fermentation using complex sugar from waste as the substrate (CW).*
  
 
-
-## Data
-The files should be extracted and placed in the `dataset` folder. For access to the dataset, please contact the corresponding author.
-
-
 ## Acknowledgement 
 + DANN-R is developed from [DANN](https://github.com/NaJaeMin92/pytorch-DANN).  
 + DARE-GRAM is used as our [codebase](https://github.com/ismailnejjar/DARE-GRAM). 
 + DeepCORAL-R is developed from [DeepCORAL](https://github.com/SSARCandy/DeepCORAL).
 
+## Data
+The files should be extracted and placed in the `dataset` folder. For access to the dataset, please contact the corresponding author.
 
-## Contact
-For questions regarding the code and data, please contact MBabor@atb-potsdam.de or SLiu@atb-potsdam.de .
+
