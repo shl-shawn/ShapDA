@@ -88,7 +88,7 @@ cd src/ShapFS
 
 ## 📊 Results
 
-### Glucose prediction experiment results
+### Glucose prediction
 
 <table>
   <thead>
@@ -167,12 +167,10 @@ cd src/ShapFS
   </tbody>
 </table>
 
+*Table 1: Unsupervised domain adaptation results for glucose prediction in source (SG) and target (CW) fermentations. Arrows indicate desired direction: ↑ (higher is better), ↓ (lower is better).*
 
 
-*Table 1: Unsupervised domain adaptation results for glucose in source fermentation using glucose as the substrate (SG) and target fermentation using complex sugar from waste as the substrate (CW).*
-
-
-### Lactic acid prediction experiment results
+### Lactic acid prediction
 
 <table>
   <thead>
@@ -251,9 +249,8 @@ cd src/ShapFS
   </tbody>
 </table>
 
+*Table 2: Unsupervised domain adaptation results for lactic acid prediction from source (SG) to target (CW) fermentations. Arrows indicate desired direction: ↑ (higher is better), ↓ (lower is better).*
 
-*Table 2: Lactic acid prediction results using unsupervised domain adaptation from source fermentation using glucose as the substrate (SG) to target fermentation using complex sugar from waste as the substrate (CW).*
- 
 
 ## 🙏 Acknowledgement 
 + DANN-R is developed from [DANN](https://github.com/NaJaeMin92/pytorch-DANN).  
