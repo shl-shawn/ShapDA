@@ -12,7 +12,7 @@ Code for our paper: Domain-Invariant Monitoring for Lactic Acid Production: Tran
 
 
 
-# Table of Contents
+## Table of Contents
 
 1. 🔍 [About](#-about)
 2. ⚙️ [Installation](#-installation)
