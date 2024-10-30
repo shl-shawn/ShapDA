@@ -1,7 +1,7 @@
 
 
 <div align="center">
-  <img width="30%" height="30%" src="./assest/icon3.png"><br>
+  <img width="30%" height="30%" src="./assets/icon.png"><br>
   
   <strong>ShapFS: SHapley Additive exPlanations-based Feature Selection</strong>
 
@@ -19,7 +19,7 @@ Code for our paper: Domain-Invariant Monitoring for Lactic Acid Production: Tran
 
 
 ## About
-<img src="./assest/Figure_1.jpg" alt="alt text" width="200%" height="150%">
+<img src="./assets/Figure_1.jpg" alt="alt text" width="200%" height="150%">
 
 **Domain adaptation in lactic acid production**: simple glucose (SG) in the source and bio-waste hydrolysate (CW) in the target. Subplot (a) shows FTIR data for source ($`X_s`$) and target ($`X_t`$), highlighting domain shift. Subplot (b) introduces ShapFS, identifying domain-invariant features. The regression model trained with these features improves target prediction ($`\hat{y}_t`$), reducing the domain shift impact.
 
