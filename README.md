@@ -1,7 +1,7 @@
 
 
 <div align="center">
-  <img width="30%" height="30%" src="./assets/icon.png"><br>
+  <img width="40%" height="40%" src="./assets/icon.png"><br>
   
   <strong>ShapFS: SHapley Additive exPlanations-based Feature Selection</strong>
 
@@ -11,20 +11,22 @@ Code for our paper: Domain-Invariant Monitoring for Lactic Acid Production: Tran
 
 
 
-## Table of Contents
-1. [About](#about)
-2. [Installation](#installation)
-3. [Training and Evaluation](#training-and-evaluation)
-4. [Results](#results)
+
+# Table of Contents
+
+1. 🔍 [About](#-about)
+2. ⚙️ [Installation](#-installation)
+3. 🤖 [Training and Evaluation](#-training-and-evaluation)
+4. 📊 [Results](#-results)
 
 
-## About
+## 🔍 About
 <img src="./assets/Figure_1.jpg" alt="alt text" width="200%" height="150%">
 
 **Domain adaptation in lactic acid production**: simple glucose (SG) in the source and bio-waste hydrolysate (CW) in the target. Subplot (a) shows FTIR data for source ($`X_s`$) and target ($`X_t`$), highlighting domain shift. Subplot (b) introduces ShapFS, identifying domain-invariant features. The regression model trained with these features improves target prediction ($`\hat{y}_t`$), reducing the domain shift impact.
 
    
-## Installation
+## ⚙️ Installation
 To reproduce our results, please kindly create and use the following environment.
 
 ```python
@@ -35,7 +37,7 @@ conda activate ShapFS
 pip install -r requirements.txt
 ```
 
-## Training and Evaluation
+## 🤖 Training and Evaluation
 
 The following deep models can be executed with their default parameters. To run the training and testing scripts, ensure that the correct paths to the dataset, model weights, and save directory are specified (i.e., `weight_path`, `dataset_dir` and `save_dir`).
 
@@ -84,7 +86,7 @@ cd src/ShapFS
 
 
 
-## Results
+## 📊 Results
 
 ### Glucose prediction experiment results
 
@@ -253,12 +255,12 @@ cd src/ShapFS
 *Table 2: Lactic acid prediction results using unsupervised domain adaptation from source fermentation using glucose as the substrate (SG) to target fermentation using complex sugar from waste as the substrate (CW).*
  
 
-## Acknowledgement 
+## 🙏 Acknowledgement 
 + DANN-R is developed from [DANN](https://github.com/NaJaeMin92/pytorch-DANN).  
 + DARE-GRAM is used as our [codebase](https://github.com/ismailnejjar/DARE-GRAM). 
 + DeepCORAL-R is developed from [DeepCORAL](https://github.com/SSARCandy/DeepCORAL).
 
-## Data
+## 🧪 Data
 The files should be extracted and placed in the `dataset` folder. For access to the dataset, please contact the corresponding author.
 
 
