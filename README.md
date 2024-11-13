@@ -3,7 +3,7 @@
 <div align="center">
   <img width="40%" height="40%" src="./assets/icon.png"><br>
   
-  <strong>ShapFS: SHapley Additive exPlanations-based Feature Selection</strong>
+  <strong>ShapFS</strong>: <strong>SH</strong>apley <strong>A</strong>dditive ex<strong>P</strong>lanations-based <strong>F</strong>eature <strong>S</strong>election
 
 </div>
 
