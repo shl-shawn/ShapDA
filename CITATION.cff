@@ -30,9 +30,9 @@ preferred-citation:
   doi: "10.2139/ssrn.5012080"
   journal: "Preprint submitted to Bioresource Technology"
   title: "Domain-Invariant Monitoring for Lactic Acid Production: Transfer Learning from Glucose to Bio-Waste Using Machine Learning Interpretation"
-  volume: 0
-  issue: 0
   year: 2024
   month: 11
-  start: 1
-  end: 23
+  # volume: 0
+  # issue: 0
+  # start: 1
+  # end: 23
