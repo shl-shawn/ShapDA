@@ -265,15 +265,16 @@ The files should be extracted and placed in the `dataset` folder. The dataset is
 
 ## Citation
 APA: 
+
 Babor, M., Liu, S., Arefi, A., Olszewska-Widdrat, A., Sturm, B., Venus, J., & Höhne, M. M. (2024). Domain-Invariant Monitoring for Lactic Acid Production: Transfer Learning from Glucose to Bio-Waste Using Machine Learning Interpretation. Preprint submitted to Bioresource Technology. https://doi.org/10.2139/ssrn.5012080
 
 BibTex:
+
 @article{Babor_Domain_2024,
 author = {Babor, Majharulislam and Liu, Shanghua and Arefi, Arman and Olszewska-Widdrat, Agata and Sturm, Barbara and Venus, Joachim and Höhne, Marina M.-C.},
 doi = {10.2139/ssrn.5012080},
 journal = {Preprint submitted to Bioresource Technology},
 title = {{Domain-Invariant Monitoring for Lactic Acid Production: Transfer Learning from Glucose to Bio-Waste Using Machine Learning Interpretation}},
 year = {2024},
-url = {https://doi.org/10.2139/ssrn.5012080}
-}
+url = {https://doi.org/10.2139/ssrn.5012080}}
 
