@@ -261,6 +261,9 @@ cd src/ShapFS
 + DeepCORAL-R is developed from [DeepCORAL](https://github.com/SSARCandy/DeepCORAL).
 
 ## 🧪 Data
-The files should be extracted and placed in the `dataset` folder. For access to the dataset, please contact the corresponding author.
+The files should be extracted and placed in the `dataset` folder. The dataset is available at [Zenodo](https://doi.org/10.5281/zenodo.14171429).
+
+## Citation
+Babor, Majharulislam and Liu, Shanghua and Arefi, Arman and Olszewska-Widdrat, Agata and Sturm, Barbara and Venus, Joachi and Höhne, Marina M.-C., 2024, Domain-Invariant Monitoring for Lactic Acid Production: Transfer Learning from Glucose to Bio-Waste Using Machine Learning Interpretation, DOI: 10.2139/ssrn.5012080, Available at http://dx.doi.org/10.2139/ssrn.5012080
 
 
