@@ -1,0 +1,79 @@
+cff-version: 1.0.0
+message: "If you use this code and dataset, please cite it as below."
+authors:
+- family-names: "Babor"
+  given-names: "Majharulislam"
+  orcid: "https://orcid.org/0000-0002-5440-7573"
+
+- family-names: "Liu"
+  given-names: "Shanghua"
+  orcid: "https://orcid.org/0009-0009-9855-9040"
+
+- family-names: "Arefi"
+  given-names: "Arman"
+  orcid: "https://scholar.google.com/citations?hl=en&user=gcRa6ZUAAAAJ"
+
+- family-names: "Olszewska-Widdrat"
+  given-names: "Agata"
+  orcid: "https://orcid.org/0000-0002-7843-6846"
+
+- family-names: "Sturm"
+  given-names: "Barbara"
+  orcid: "https://scholar.google.com/citations?user=o44XenAAAAAJ&hl=en&oi=ao"
+
+- family-names: "Venus"
+  given-names: "Joachim"
+  orcid: "https://orcid.org/0000-0001-7708-1783"
+
+- family-names: "Höhne"
+  given-names: "Marina M.-C."
+  orcid: "https://scholar.google.com/citations?hl=en&user=YwdAiikAAAAJ"
+
+
+
+title: "Domain-Invariant Monitoring for Lactic Acid Production: Transfer Learning from Glucose to Bio-Waste Using Machine Learning Interpretation"
+version: 1.0.0
+doi: 10.2139/ssrn.5012080
+date-released: 2017-12-18
+url: "http://dx.doi.org/10.2139/ssrn.5012080"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Babor"
+  given-names: "Majharulislam"
+  orcid: "https://orcid.org/0000-0002-5440-7573"
+
+  - family-names: "Liu"
+    given-names: "Shanghua"
+    orcid: "https://orcid.org/0009-0009-9855-9040"
+
+  - family-names: "Arefi"
+    given-names: "Arman"
+    orcid: "https://scholar.google.com/citations?hl=en&user=gcRa6ZUAAAAJ"
+
+  - family-names: "Olszewska-Widdrat"
+    given-names: "Agata"
+    orcid: "https://orcid.org/0000-0002-7843-6846"
+
+  - family-names: "Sturm"
+    given-names: "Barbara"
+    orcid: "https://scholar.google.com/citations?user=o44XenAAAAAJ&hl=en&oi=ao"
+
+  - family-names: "Venus"
+    given-names: "Joachim"
+    orcid: "https://orcid.org/0000-0001-7708-1783"
+
+  - family-names: "Höhne"
+    given-names: "Marina M.-C."
+    orcid: "https://scholar.google.com/citations?hl=en&user=YwdAiikAAAAJ"
+
+
+  doi: "10.2139/ssrn.5012080"
+  journal: "Preprint submitted to Bioresource Technology"
+  month: 11
+  start: 1 # First page number
+  end: 23 # Last page number
+  title: "Domain-Invariant Monitoring for Lactic Acid Production: Transfer Learning from Glucose to Bio-Waste Using Machine Learning Interpretation"
+  issue: 0
+  volume: 0
+  year: 2024
