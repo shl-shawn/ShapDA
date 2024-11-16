@@ -12,11 +12,11 @@ class DataLoad(object):
         
     def load_data(self):
         if self.glucose:
-            target = pd.read_excel("./data/cs_glucose.xlsx")
-            source = pd.read_excel("./data/ss_glucose.xlsx")
+            target = pd.read_excel("./dataset/target_substrate_waste_glucose.xlsx")
+            source = pd.read_excel("./dataset/source_substrate_glucose_glucose.xlsx")
         else:
-            target = pd.read_excel("./data/cs_lacticacid.xlsx")
-            source = pd.read_excel("./data/ss_lacticacid.xlsx")
+            target = pd.read_excel("./dataset/target_substrate_waste_lacticacid.xlsx")
+            source = pd.read_excel("./dataset/source_substrate_glucose_lacticacid.xlsx")
 
         self.X_source, self.y_source, self.wl = DataLoad.get_X_y_from_df(source)
         self.X_target, self.y_target, _ = DataLoad.get_X_y_from_df(target)
