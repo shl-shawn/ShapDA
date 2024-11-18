@@ -14,10 +14,10 @@ Code for our paper: Domain-Invariant Monitoring for Lactic Acid Production: Tran
 ## Table of Contents
 
 1. 🔍 [About](#about)
-2. ⚙️ [Installation](#installation)
-3. 🤖 [Training and Evaluation](#training-and-evaluation)
-4. 📊 [Results](#results)
-5. [Citation](#citation)
+2. 🧪 [Data](#data)
+3. ⚙️ [Installation](#installation)
+4. 🤖 [Training and Evaluation](#training-and-evaluation)
+5. 📊 [Results](#results)
 
 
 <a name="about"></a>
@@ -25,6 +25,11 @@ Code for our paper: Domain-Invariant Monitoring for Lactic Acid Production: Tran
 <img src="./assets/Figure_1.jpg" alt="alt text" width="200%" height="150%">
 
 **Unsupervised Domain Adaptation in Lactic Acid Production**: The source domain uses simple glucose (SG) while the target domain uses complex bio-waste hydrolysate (CW). Subplot (a) shows FTIR data for the source ($X_s$) and target ($X_t$), highlighting the domain shift. Subplot (b) presents ShapFS, which identifies domain-invariant features. A regression model trained on these features enhances target predictions ($\hat{y}_t$), mitigating the effects of domain shift.
+
+
+<a name="data"></a>
+## 🧪 Data
+The dataset is available at [Zenodo](https://doi.org/10.5281/zenodo.14171429). The files should be extracted and placed in the `dataset` folder. 
 
 
 <a name="installation"></a>
@@ -39,6 +44,8 @@ conda create -n ShapFS python
 conda activate ShapFS
 pip install -r requirements.txt
 ```
+
+
 
 <a name="training-and-evaluation"></a>
 ## 🤖 Training and Evaluation
@@ -256,23 +263,14 @@ cd src/ShapFS
 *Table 2: Unsupervised domain adaptation results for lactic acid prediction from source (SG) to target (CW) fermentations. Arrows indicate desired direction: ↑ (higher is better), ↓ (lower is better).*
 
 
-## 🙏 Acknowledgement 
-+ DANN-R is developed from [DANN](https://github.com/NaJaeMin92/pytorch-DANN).  
-+ DARE-GRAM is used as our [codebase](https://github.com/ismailnejjar/DARE-GRAM). 
-+ DeepCORAL-R is developed from [DeepCORAL](https://github.com/SSARCandy/DeepCORAL).
+## 📚 Citation
+If you use our work or dataset in your work, please cite it using the following metadata (`APA` or `BibTex` format).
 
-## 🧪 Data
-The files should be extracted and placed in the `dataset` folder. The dataset is available at [Zenodo](https://doi.org/10.5281/zenodo.14171429).
-
-## Citation
-If you use our work or dataset in your work, please cite it using the following metadata.
-
-`APA` 
-
+```
 Babor, M., Liu, S., Arefi, A., Olszewska-Widdrat, A., Sturm, B., Venus, J., & Höhne, M. M. (2024). Domain-Invariant Monitoring for Lactic Acid Production: Transfer Learning from Glucose to Bio-Waste Using Machine Learning Interpretation. Preprint submitted to Bioresource Technology. https://doi.org/10.2139/ssrn.5012080
+```
 
-`BibTex`
-
+```
 @article{Babor_Domain_2024,
 author = {Babor, Majharulislam and Liu, Shanghua and Arefi, Arman and Olszewska-Widdrat, Agata and Sturm, Barbara and Venus, Joachim and Höhne, Marina M.-C.},
 doi = {10.2139/ssrn.5012080},
@@ -280,4 +278,9 @@ journal = {Preprint submitted to Bioresource Technology},
 title = {{Domain-Invariant Monitoring for Lactic Acid Production: Transfer Learning from Glucose to Bio-Waste Using Machine Learning Interpretation}},
 year = {2024},
 url = {https://doi.org/10.2139/ssrn.5012080}}
+```
 
+## 🙏 Acknowledgement 
++ DANN-R is developed from [DANN](https://github.com/NaJaeMin92/pytorch-DANN).  
++ DARE-GRAM is used as our [codebase](https://github.com/ismailnejjar/DARE-GRAM). 
++ DeepCORAL-R is developed from [DeepCORAL](https://github.com/SSARCandy/DeepCORAL).
