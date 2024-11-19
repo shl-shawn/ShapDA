@@ -13,11 +13,12 @@ Code for our paper: Domain-Invariant Monitoring for Lactic Acid Production: Tran
 
 ## Table of Contents
 
-1. 🔍 [About](#about)
-2. 🧪 [Data](#data)
-3. ⚙️ [Installation](#installation)
-4. 🤖 [Training and Evaluation](#training-and-evaluation)
-5. 📊 [Results](#results)
+1.  [About](#about)
+2.  [Data](#data)
+3.  [Installation](#installation)
+4.  [Training and Evaluation](#training-and-evaluation)
+5.  [Results](#results)
+6.  [Citation](#citation)
 
 
 <a name="about"></a>
@@ -262,14 +263,15 @@ cd src/ShapFS
 
 *Table 2: Unsupervised domain adaptation results for lactic acid prediction from source (SG) to target (CW) fermentations. Arrows indicate desired direction: ↑ (higher is better), ↓ (lower is better).*
 
-
+<a name="citation"></a>
 ## 📚 Citation
-If you use our work or dataset in your work, please cite it using the following metadata (`APA` or `BibTex` format).
+If you use our work or dataset in your work, please cite it as:
 
-```
+### APA 
 Babor, M., Liu, S., Arefi, A., Olszewska-Widdrat, A., Sturm, B., Venus, J., & Höhne, M. M. (2024). Domain-Invariant Monitoring for Lactic Acid Production: Transfer Learning from Glucose to Bio-Waste Using Machine Learning Interpretation. Preprint submitted to Bioresource Technology. https://doi.org/10.2139/ssrn.5012080
-```
 
+
+### BibTex
 ```
 @article{Babor_Domain_2024,
 author = {Babor, Majharulislam and Liu, Shanghua and Arefi, Arman and Olszewska-Widdrat, Agata and Sturm, Barbara and Venus, Joachim and Höhne, Marina M.-C.},
