@@ -1,11 +1,6 @@
 
 
-<div align="center">
-  <img width="40%" height="40%" src="./assets/icon.png"><br>
-  
-  <strong>ShapFS</strong>: <strong>SH</strong>apley <strong>A</strong>dditive ex<strong>P</strong>lanations-based <strong>F</strong>eature <strong>S</strong>election
-
-</div>
+# ShapDA
 
 Code for our paper: Domain-Invariant Monitoring for Lactic Acid Production: Transfer Learning from Glucose to Bio-Waste Using Machine Learning Interpretation
 
