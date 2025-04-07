@@ -55,7 +55,7 @@ def test(models, Xs_test, ys_test, Xt_test, yt_test,  modelnames=['PLSR'], figur
                 yhats.append(yhat)
             M = Metrics(ytest, yhat)
             metrics.append(M)
-            results.append([ j, modelnames[k], np.round(M.R2(), 2), np.round(M.RMSE(), 5), np.round(M.RMSEP(), 5), np.round(M.RPD(), 1)])
+            results.append([ j, modelnames[k], np.round(M.R2(), 2), np.round(M.RMSE(), 1), np.round(M.RMSEP(), 1), np.round(M.RPD(), 1)])
     results = np.array(results)
     if figure:
         colors = ['cadetblue',  'lightcoral']
@@ -79,78 +79,6 @@ def test(models, Xs_test, ys_test, Xt_test, yt_test,  modelnames=['PLSR'], figur
     
     return results
 
-
-def classification(X_train, X_test, y_train, y_test, wl):
-   
-    clf = LDA(n_components=1, solver='svd', store_covariance=False, tol=0.01)
-    clf.fit(X_train, y_train)
-
-
-    # Predict the probabilities of the test set
-    y_pred_proba = clf.predict_proba(X_test)[:, 1]
-
-    # Calculate the AUC score
-    auc_score = roc_auc_score(y_test, y_pred_proba)
-
-    # print(f'The AUC score is {auc_score:.2f}')
-
-    # Predict the classes of the test set
-    y_pred = clf.predict(X_test)
-
-    # Calculate the accuracy of the model
-    accuracy = accuracy_score(y_test, y_pred)
-
-    # print(f'The accuracy of the SVM model is {accuracy:.2f}')
-
-    fpr, tpr, _ = roc_curve(y_test, y_pred_proba)
-
-    X_train_transformed = clf.decision_function(X_train)
-    X_test_transformed  = clf.decision_function(X_test)
-
-    return auc_score, accuracy, fpr, tpr, X_train_transformed, X_test_transformed
-
-def classification_results_visualisation(dataset1):
-    # print(f"===Classification using {model}: only raw spectra===")
-    X_train1, X_test1, y_train1, y_test1, wl1 = dataset1
-    
-    auc_score1, accuracy1, fpr1, tpr1, X_train_transformed1, X_test_transformed1 = \
-            classification(X_train1, X_test1, y_train1, y_test1, wl1)
-    
-    fig, ax = plt.subplots(1,2,figsize=(7,3))
-    ax[1].plot(fpr1, tpr1, label=f'AUC = {auc_score1:.2f}', alpha=0.5)
-    ax[1].plot([0, 1], [0, 1], linestyle='--', alpha=0.5)
-    ax[1].set_xlabel('False positive rate')
-    ax[1].set_ylabel('True positive rate')
-    ax[1].text(0.64, 0.1, f'ACC = {accuracy1*100:.0f} %')
-    ax[1].legend(frameon=False)
-    # ax[0].set_title('ROC Curve'
-    ax[0].scatter(y_test1, X_test_transformed1, color='crimson', facecolor='None',label='Test set', alpha=0.5)
-    ax[0].scatter(y_train1, X_train_transformed1, 5,color='indigo', label='Training set', alpha=0.5)
-    ax[0].set_xlabel('Domains')
-    ax[0].set_ylabel("Linear Discriminant [1]")
-    ax[0].set_xlim(-0.5,1.5)
-    ax[0].set_xticks([0, 1], ['SG', 'CW'])
-    ax[0].legend(frameon=False, ) #loc='upper left'
-
-    # ax[3].label_outer()
-    for axis in ['top','right']:
-        ax[0].spines[axis].set_color('white')
-        ax[1].spines[axis].set_color('white')
-
-
-    for axis in ['bottom','left']:
-        ax[0].spines[axis].set_linewidth(1.5)
-        ax[0].spines[axis].set_color('darkgrey')
-        # ax[0].set_facecolor("whitesmoke")
-        ax[1].spines[axis].set_linewidth(1.5)
-        ax[1].spines[axis].set_color('darkgrey')
-        # ax[1].set_facecolor("whitesmoke")
-   
-    # plt.subplots_adjust(wspace=.05, hspace=0)
-    plt.tight_layout()
-    plt.show()
-
-    return None
 
 
 
