@@ -1,13 +1,8 @@
 
 
-<div align="center">
-  <img width="40%" height="40%" src="./assets/icon.png"><br>
-  
-  <strong>ShapFS</strong>: <strong>SH</strong>apley <strong>A</strong>dditive ex<strong>P</strong>lanations-based <strong>F</strong>eature <strong>S</strong>election
+# ShapDA
 
-</div>
-
-Code for our paper: Domain-Invariant Monitoring for Lactic Acid Production: Transfer Learning from Glucose to Bio-Waste Using Machine Learning Interpretation
+Code and dataset for our paper: Domain-Invariant Monitoring for Lactic Acid Production: Transfer Learning from Glucose to Bio-Waste Using Machine Learning Interpretation
 
 
 
@@ -23,9 +18,9 @@ Code for our paper: Domain-Invariant Monitoring for Lactic Acid Production: Tran
 
 <a name="about"></a>
 ## 🔍 About
-<img src="./assets/Figure_1.jpg" alt="alt text" width="200%" height="150%">
+<img src="./assets/grabs.jpg" alt="alt text" width="200%" height="150%">
 
-**Unsupervised Domain Adaptation in Lactic Acid Production**: The source domain uses simple glucose (SG) while the target domain uses complex bio-waste hydrolysate (CW). Subplot (a) shows FTIR data for the source ($X_s$) and target ($X_t$), highlighting the domain shift. Subplot (b) presents ShapFS, which identifies domain-invariant features. A regression model trained on these features enhances target predictions ($\hat{y}_t$), mitigating the effects of domain shift.
+**Unsupervised Domain Adaptation in Lactic Acid Production**: The source domain uses simple glucose (SG) while the target domain uses complex bio-waste hydrolysate (CW). Subplot (a) shows FTIR data for the source ($X_s$) and target ($X_t$), highlighting the domain shift. Subplot (b) presents ShapDA, which identifies domain-invariant features. A regression model trained on these features enhances target predictions ($\hat{y}_t$), mitigating the effects of domain shift.
 
 
 <a name="data"></a>
@@ -39,10 +34,10 @@ The dataset is available at [Zenodo](https://doi.org/10.5281/zenodo.14171429). T
 To reproduce our results, please kindly create and use the following environment.
 
 ```python
-git clone https://github.com/shl-shawn/ShapFS.git
-cd ShapFS
-conda create -n ShapFS python
-conda activate ShapFS
+git clone https://github.com/shl-shawn/ShapDA.git
+cd ShapDA
+conda create -n ShapDA python
+conda activate ShapDA
 pip install -r requirements.txt
 ```
 
@@ -87,13 +82,13 @@ cd src/DeepCORAL-R
 python test.py
 ```
 
-### ShapFS
+### ShapDA
 
 ```bash
-cd src/ShapFS
+cd src/ShapDA
 ```
-- **`shapfs_glucose.ipynb`**: Implements the ShapFS method for predicting glucose concentration in both source and target domains.
-- **`shapfs_lacticacid.ipynb`**: Applies ShapFS to predict lactic acid concentration across source and target domains.
+- **`shapfs_glucose.ipynb`**: Implements the ShapDA method for predicting glucose concentration in both source and target domains.
+- **`shapfs_lacticacid.ipynb`**: Applies ShapDA to predict lactic acid concentration across source and target domains.
 - **`shapfs_combine.ipynb`**: Combines domain-invariant features for glucose and lactic acid to evaluate their impact on prediction accuracy.
 
 
@@ -166,7 +161,7 @@ cd src/ShapFS
       <td>3.6</td>
     </tr>
     <tr style="background-color: #d1e7dd;">
-      <td><strong>ShapFS (ours)</strong></td>
+      <td><strong>ShapDA (ours)</strong></td>
       <td><strong>0.98</strong></td>
       <td><strong>4.3</strong></td>
       <td><strong>3.7</strong></td>
@@ -248,7 +243,7 @@ cd src/ShapFS
       <td>2.8</td>
     </tr>
     <tr style="background-color: #d1e7dd;">
-      <td><strong>ShapFS (ours)</strong></td>
+      <td><strong>ShapDA (ours)</strong></td>
       <td><strong>0.99</strong></td>
       <td><strong>3.1</strong></td>
       <td><strong>3.7</strong></td>
