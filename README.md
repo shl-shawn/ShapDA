@@ -263,18 +263,21 @@ cd src/ShapDA
 If you use our work or dataset in your work, please cite it as:
 
 ### APA 
-Babor, M., Liu, S., Arefi, A., Olszewska-Widdrat, A., Sturm, B., Venus, J., & Höhne, M. M. (2024). Domain-Invariant Monitoring for Lactic Acid Production: Transfer Learning from Glucose to Bio-Waste Using Machine Learning Interpretation. Preprint submitted to Bioresource Technology. https://doi.org/10.2139/ssrn.5012080
+Babor, M., Liu, S., Arefi, A., Olszewska-Widdrat, A., Sturm, B., Venus, J., & Höhne, M. M. (2025). Interpretable Domain Adaptation Enables Robust Lactic Acid Fermentation Monitoring from Waste. Results in Engineering. [https://doi.org/10.2139/ssrn.5012080](https://doi.org/10.1016/j.rineng.2025.108477)
 
 
 ### BibTex
 ```
-@article{Babor_Domain_2024,
-author = {Babor, Majharulislam and Liu, Shanghua and Arefi, Arman and Olszewska-Widdrat, Agata and Sturm, Barbara and Venus, Joachim and Höhne, Marina M.-C.},
-doi = {10.2139/ssrn.5012080},
-journal = {Preprint submitted to Bioresource Technology},
-title = {{Domain-Invariant Monitoring for Lactic Acid Production: Transfer Learning from Glucose to Bio-Waste Using Machine Learning Interpretation}},
-year = {2024},
-url = {https://doi.org/10.2139/ssrn.5012080}}
+@article{BABOR2025108477,
+title = {Interpretable Domain Adaptation Enables Robust Lactic Acid Fermentation Monitoring from Waste},
+journal = {Results in Engineering},
+pages = {108477},
+year = {2025},
+issn = {2590-1230},
+doi = {https://doi.org/10.1016/j.rineng.2025.108477},
+url = {https://www.sciencedirect.com/science/article/pii/S2590123025045219},
+author = {Majharulislam Babor and Shanghua Liu and Arman Arefi and Agata Olszewska-Widdrat and Joachim Venus and Barbara Sturm and Marina M.C. Höhne},
+}
 ```
 
 ## 🙏 Acknowledgement 
