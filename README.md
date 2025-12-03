@@ -1,7 +1,7 @@
 
 
-# ShapDA: Interpretable Domain Adaptation Enables Robust Lactic Acid Fermentation Monitoring from Waste
-
+# Interpretable Domain Adaptation Enables Robust Lactic Acid Fermentation Monitoring from Waste *[[paper](https://www.sciencedirect.com/science/article/pii/S2590123025045219?via%3Dihub)]*
+  
 **Unsupervised Domain Adaptation in Lactic Acid Production**: The source domain uses simple glucose (SG) while the target domain uses complex bio-waste hydrolysate (CW). Subplot (a) shows FTIR data for the source ($X_s$) and target ($X_t$), highlighting the domain shift. Subplot (b) presents ShapDA, which identifies domain-invariant features. A regression model trained on these features enhances target predictions ($\hat{y}_t$), mitigating the effects of domain shift.
 
 <img src="./assets/grabs.jpg" alt="alt text" width="200%" height="150%">
