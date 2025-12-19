@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import KFold
 from sklearn.covariance import EmpiricalCovariance
 from sklearn.metrics import mean_squared_error as MSE
-from data_load import DataLoad # custom data loading module
+from dataloader import * # custom data loading module
 from metrics import Metrics # custom metrics module
 
 class ShapDA:
